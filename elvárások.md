@@ -1,0 +1,4 @@
+- MATLAB LESZ
+- vissza neki a jegyzetet
+- Lesz valami házi
+- vizsga is lesz
