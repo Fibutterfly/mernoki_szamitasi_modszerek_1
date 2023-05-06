@@ -1,6 +1,6 @@
 ---
 tags: OE/ALKMAT/Mernoki1 
-aliases: ["globális hiba", "globális hibájára"]
+aliases: ["globális hiba", "globális hibájára", "i-edik pont béli globális hibájára", "globális hibája"]
 ---
 
 # i-edik pont béli globális hiba

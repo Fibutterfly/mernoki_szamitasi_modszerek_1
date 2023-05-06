@@ -1,6 +1,6 @@
 ---
 tags: OE/ALKMAT/Mernoki1 
-aliases: ["lokális hiba", "lokális hibájára", "lokális hibára"]
+aliases: ["lokális hiba", "lokális hibájára", "lokális hibára", "x pontbéli lokális hibája","lokális hibája"]
 ---
 # x pontbéli lokális hiba
 $$T(y(x),h)=y(x+h)-(y(x)+h*f(x,y(x)))$$
