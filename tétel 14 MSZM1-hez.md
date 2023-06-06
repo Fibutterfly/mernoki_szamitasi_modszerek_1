@@ -1,0 +1,3 @@
+explicit differencia módszer hiperbólikus egyenletrendszerre
+explicit differencia módszer hiperbólikus egyenletrendszerre stabilítása
+CFL feltétel

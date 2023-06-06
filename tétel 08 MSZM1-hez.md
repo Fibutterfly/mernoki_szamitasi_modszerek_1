@@ -1,0 +1,1 @@
+differencia módszer peremérték nem lineáris eset

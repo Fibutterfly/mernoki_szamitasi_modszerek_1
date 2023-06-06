@@ -1,0 +1,1 @@
+véges differencia módszer: Poisson egyenlet 

@@ -1,0 +1,1 @@
+változók szétválasztása hiperbólikus differenciálegyenletekre
