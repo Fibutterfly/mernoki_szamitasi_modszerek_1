@@ -18,12 +18,12 @@ Előfordulhat, hogy $a_{kk}$ elem, $0$ ekkor csinálni kell valamit
 # részleges főelemkiválasztás
 $$|a_{kk}| = \max_{k \le i \le n} |a_{ik}|$$
 Ekkor kiválasztjuk a $k$. lépésben a $k$. oszlop elemei közül a legnagyobbat
-
+és csak a sort cseréljük meg
 #Galántai/mérnöki_jegyzet 
 
 # teljes főelemkiválasztás
 $$|a_{kk}| = \max_{k \le i \le n}|a_{ij}|$$
-ekkor felcseréljük a $k$ és $i$ edik sort
+ekkor felcseréljük a $k$ és $i$ edik sort és a j. oszlopot
 
 #Galántai/mérnöki_jegyzet 
 
@@ -48,11 +48,12 @@ END
 
 START
 Basic
-Front
+Front:
 részleges főelemkiválasztás
 Back:
 $$|a_{kk}| = \max_{k \le i \le n} |a_{ik}|$$
 Ekkor kiválasztjuk a $k$. lépésben a $k$. oszlop elemei közül a legnagyobbat
+és csak a sort cseréljük meg
 <!--ID: 1686516126057-->
 END
 
@@ -62,6 +63,6 @@ Front:
 teljes főelemkiválasztás
 Back:
 $$|a_{kk}| = \max_{k \le i \le n}|a_{ij}|$$
-ekkor felcseréljük a $k$ és $i$ edik sort
+ekkor felcseréljük a $k$ és $i$ edik sort és a j. oszlopot
 <!--ID: 1686516126064-->
 END
