@@ -1,6 +1,6 @@
 ---
 tags: OE/ALKMAT/Mernoki1 
-aliases: ["sávmátrixokon", "sáv-mátrix"]
+aliases: ["sávmátrixokon", "sáv-mátrix","sávmátrixot"]
 TARGET DECK: 02::MSZM1
 ---
 # Sávmátrix

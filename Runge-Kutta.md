@@ -1,6 +1,7 @@
 ---
-tags: OE/ALKMAT/Mernoki1 
+tags: OE/ALKMAT/Mernoki1 OE/ALKMAT/Mernoki1/06tétel 
 aliases: [""]
+TARGET DECK: 02::MSZM1
 ---
 # explicit Runge-Kutta
 $$
@@ -37,3 +38,48 @@ $$||T(y(t_n), h_n)||_\infty \le h_n * \epsilon$$
 - $0 \le n \le N-1$
 ahol:
 - $h$ a lépésköz
+
+
+# kártya
+START
+Basic
+Front:
+Explicit Runge-Kutta képlete
+Back:
+$$
+\begin{aligned}
+	y_{n+1} &= y_n + h_n \sum_{i=1}^m c_i* k_i \\
+	k_1 &= f(x_n,y_n) \\
+	k_i &= f \left( x_n + a_i*h_n * y_n + h_n * \sum_{j=1}^{i-1} b_{ij}* k_j \right) &(i = 2, \dots, m)
+\end{aligned}
+$$
+<!--ID: 1686769964469-->
+END
+
+START
+Basic
+Front:
+Ez micsoda?
+$$
+\begin{aligned}
+	y_{n+1} &= y_n + h_n \sum_{i=1}^m c_i* k_i \\
+	k_1 &= f(x_n,y_n) \\
+	k_i &= f \left( x_n + a_i*h_n * y_n + h_n * \sum_{j=1}^{i-1} b_{ij}* k_j \right) &(i = 2, \dots, m)
+\end{aligned}
+$$
+És mi mit jelent benne?
+Back:
+Explicit runge-kutta módszer
+- $c_i$ Az $i$-edik lépés középpontjának elhelyezkedését adja meg a lépésközön belül
+	- $\sum_{i=1}^m c_i = 1$ esetén $\phi(x,y,0) = f(x,y)$
+- $a_i$ Az $i$-edik lépés időbeli elhelyezkedését adja meg, relatív az aktuális időponthoz.
+	- $a_i = \sum_{j=1}^{i-1} b_{ij}$ $(i=2, \dots, m)$
+- $k$ Az $f$ függvény értékét adja meg az $i$-edik lépés középpontjában.
+- $h \in \mathbb{R}^+$ a lépésközt jelöli
+- $y:\mathbb{R} \to \mathbb{R}$ az egzakt megoldások
+- $b_{ij}$ Az $i$-edik lépés során az $j$-edik részlépés súlyozását adja meg.
+	- $b$: Az intervallum végepontját jelöli.
+Megadható mátrix sémában is
+![[Pasted image 20230505213446.png]]
+<!--ID: 1687081760003-->
+END

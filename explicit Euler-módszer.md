@@ -1,6 +1,7 @@
 ---
-tags: OE/ALKMAT/Mernoki1 
+tags: OE/ALKMAT/Mernoki1 OE/ALKMAT/Mernoki1/05tétel 
 aliases: ["explicit Euler módszer"]
+TARGET DECK: 02::MSZM1
 ---
 # explicit Euler-módszer
 ## alapgondolata
@@ -29,3 +30,17 @@ A globális hibára vonatkozó tétel szerint a legnagyobb hiba a lépéshosszal
 akkor fennáll, hogy
 $$\max_{1 \le i \le N}||e_i||_\infty \to 0$$
 tehát elsőrendűben [[konvergencia|konvergens]] a módszer
+
+# kártyák
+START
+Basic
+Front:
+explicit Euler-módszer
+Back:
+## alapgondolata
+- $t_1 = t_0 + h_0$ pontban közelítjük az elméleti megoldást a megoldásgörbe $(x_0,y_0)$ pontbéli érintőjével
+- [[Cauchy-feladat]] analógiájára
+	- $y(t_0 + h_0) \approx y_0 + h_0y^\prime(t_0) = y_1 = y_0 + h_0 * f(t_0, y_0)$
+- és ezután $y_{i+1} = y_i + h_i*f(t_1, y_i)$
+<!--ID: 1686769730574-->
+END
