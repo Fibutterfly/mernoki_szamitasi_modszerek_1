@@ -1,5 +1,5 @@
 ---
-tags: OE/ALKMAT/Mernoki1 OE/ALKMAT/Mernoki1/07tétel 
+tags: OE/ALKMAT/Mernoki1 OE/ALKMAT/Mernoki1/08tétel 
 aliases: [""]
 TARGET DECK: 02::MSZM1
 ---

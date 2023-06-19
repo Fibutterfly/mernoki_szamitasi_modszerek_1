@@ -1,1 +1,6 @@
 ![[változók szétválasztása módszer]]
+![[parciális differenciálegyenletek#Parciális differenciálegyenletek]]
+![[parciális differenciálegyenletek#Fontos parciális differenciál egyenletek]]
+![[parciális differenciálegyenletek#parciális differenciál egyenlet kvadratikus alakja]]
+![[parciális differenciálegyenletek#parciális differenciál egyenlet kanonikus alakja]]
+![[parciális differenciálegyenletek#parciális differenciál egyenlet csoportosítása a kanonikus alak alapján]]

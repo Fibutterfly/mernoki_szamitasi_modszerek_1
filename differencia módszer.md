@@ -48,9 +48,9 @@ $$\begin{align}
 
 #Galántai/mérnöki_jegyzet 
 
-# differencia módszer [[konvergencia|konvergenciája]] [[lineáris peremérték problémák]] esetén
+# differencia módszer [[konvergencia|konvergenciája]] [[lineáris peremérték problémák]] és [[nemlineáris peremérték probléma ]] esetén
 $$\begin{align}
-	|u_j - y(x_j)| \le M*\dfrac{h^2}{12}*M_4+ 2*P*M_3 \tag{DMKLPP.1} \\
+	|u_j - y(x_j)| \le M*\dfrac{h^2}{12}*(M_4+ 2*P*M_3) \tag{DMKLPP.1} \\
 	|p(x)| \le P \tag{DMKLPP.2} \\
 	0 < Q_1 \le -q(x) \le Q_2 \tag{DMKLPP.3}
 \end{align}$$
@@ -128,7 +128,7 @@ Front:
 differencia módszer [[konvergencia|konvergenciája]] [[lineáris peremérték problémák]] 
 Back:
 $$\begin{align}
-	|u_j - y(x_j)| \le M*\dfrac{h^2}{12}*M_4+ 2*P*M_3 \tag{DMKLPP.1} \\
+	|u_j - y(x_j)| \le M*\dfrac{h^2}{12}*(M_4+ 2*P*M_3) \tag{DMKLPP.1} \\
 	|p(x)| \le P \tag{DMKLPP.2} \\
 	0 < Q_1 \le -q(x) \le Q_2 \tag{DMKLPP.3}
 \end{align}$$
