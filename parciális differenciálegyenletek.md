@@ -1,5 +1,5 @@
 ---
-tags: OE/ALKMAT/Mernoki1 OE/ALKMAT/Mernoki1/09tétel
+tags: OE/ALKMAT/Mernoki1 OE/ALKMAT/Mernoki1/09tétel OE/ALKMAT/Mernoki1/10tétel OE/ALKMAT/Mernoki1/11tétel OE/ALKMAT/Mernoki1/12tétel OE/ALKMAT/Mernoki1/13tétel OE/ALKMAT/Mernoki1/14tétel OE/ALKMAT/Mernoki1/15tétel OE/ALKMAT/Mernoki1/16tétel OE/ALKMAT/Mernoki1/17tétel
 aliases: ["PDE","parciális differenciálegyenlet"]
 TARGET DECK: 02::MSZM1
 ---
