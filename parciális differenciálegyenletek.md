@@ -46,7 +46,7 @@ $$Q = \sum_{i=1}^n a_i \xi_i^2$$
 #Galántai/mérnöki_jegyzet 
 
 # parciális differenciál egyenlet csoportosítása a kanonikus alak alapján
-![[Parciális differenciál egyenletek - döntési fa - kanonikus alakja szerinti csoportosítás.excalidraw.png]]
+![[Parciális differenciál egyenletek - döntési fa - kanonikus alakja szerinti csoportosítás_2.excalidraw.png]]
 
 #Galántai/mérnöki_jegyzet 
 
@@ -119,6 +119,6 @@ Basic
 Front:
 parciális differenciál egyenlet csoportosítása a kanonikus alak alapján
 Back:
-![[Parciális differenciál egyenletek - döntési fa - kanonikus alakja szerinti csoportosítás.excalidraw.png]]
+![[Parciális differenciál egyenletek - döntési fa - kanonikus alakja szerinti csoportosítás_2.excalidraw.png]]
 <!--ID: 1687207634080-->
 END

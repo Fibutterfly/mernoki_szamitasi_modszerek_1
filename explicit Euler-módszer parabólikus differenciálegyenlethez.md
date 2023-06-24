@@ -38,10 +38,23 @@ $$
 
 #Galántai/mérnöki_jegyzet 
 
+# explicit euler-módszer mátrixához tartozó sajátérték
+A [[Tridiagonális mátrix spektrális tulajdonságai|Tridiagonális mátrix spektrális sajátértéke]] szerint
+$$\lambda_k = 1 - s*s + 2*s*\cos\left( \dfrac{k*\pi}{N-1} \right)$$
+
+#Galántai/mérnöki_jegyzet 
+
 # explicit euler-módszer parabólikus DE-hez tartozó stabilítása
+A sajátértékek szerint $1 > \lambda_k$-t kell biztosítani
+amit úgy tudunk, hogy $\cos\left( \dfrac{k*pi}{N-1} \right)>-1$
+tehát $s \le \dfrac{1}{2}$
+ebből következik, hogy
+$$s = \dfrac{a * \Delta t}{(\Delta x)^2}\le \dfrac{1}{2}$$
+
+#Galántai/mérnöki_jegyzet 
 
 # explicit euler-módszer parabólikus DE-hez tartozó konvergálása
-
+Tehát a stabilitás analógiájára kimondjuk, hogy $\Delta x, \Delta t \to 0$ és $s \le \dfrac{1}{2}$ akkor konvergál
 #Galántai/mérnöki_jegyzet
 
 
@@ -89,4 +102,37 @@ $$\begin{align}
 - $U_1^k = u_0$
 - $U_N^k = u_L$
 <!--ID: 1687385282715-->
+END
+
+START
+Basic
+Front:
+explicit euler-módszer mátrixához tartozó sajátérték
+Back:
+A [[Tridiagonális mátrix spektrális tulajdonságai|Tridiagonális mátrix spektrális sajátértéke]] szerint
+$$\lambda_k = 1 - s*s + 2*s*\cos\left( \dfrac{k*\pi}{N-1} \right)$$
+<!--ID: 1687537450091-->
+END
+
+START
+Basic
+Front:
+explicit euler-módszer parabólikus DE-hez tartozó stabilítása
+Back:
+
+A sajátértékek szerint $1 > \lambda_k$-t kell biztosítani
+amit úgy tudunk, hogy $\cos\left( \dfrac{k*pi}{N-1} \right)>-1$
+tehát $s \le \dfrac{1}{2}$
+ebből következik, hogy
+$$s = \dfrac{a * \Delta t}{(\Delta x)^2}\le \dfrac{1}{2}$$
+<!--ID: 1687537450097-->
+END
+
+START
+Basic
+Front:
+explicit euler-módszer parabólikus DE-hez tartozó konvergálása
+Back:
+Tehát a stabilitás analógiájára kimondjuk, hogy $\Delta x, \Delta t \to 0$ és $s \le \dfrac{1}{2}$ akkor konvergál
+<!--ID: 1687537450103-->
 END
